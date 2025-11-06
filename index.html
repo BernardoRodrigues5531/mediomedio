@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Avaliação de Inglês – Nível Médio 2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    #pagina2 {
+      display: none;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    form {
+      text-align: left;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    #resultado {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    #mensagemCertificado {
+      font-size: 20px;
+      color: green;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Página 1 -->
+  <div id="pagina1">
+    <h1>AVALIAÇÃO DE INGLÊS – NÍVEL MÉDIO</h1>
+    <p>10 questões de múltipla escolha. Cada questão vale 1 ponto.<br>
+    Pontuação mínima para aprovação: <b>6,0</b>.<br>
+    Após finalizar, envie mensagem para o nosso WhatsApp para receber seu certificado.</p>
+    <img src="https://portal.ibeu.org.br/wp-content/uploads/2023/04/usa-independence-day-concept-with-notepad-laptop-scaled-1.jpg" alt="Imagem" width="300">
+    <br>
+    <button onclick="mostrarPagina2()">Iniciar Questionário</button>
+  </div>
+
+  <!-- Página 2 -->
+  <div id="pagina2">
+    <h1>Questionário de Inglês</h1>
+    <form id="quizForm">
+
+      <!-- Questão 1 -->
+      <h3>1. (Vocabulário) Escolha a palavra em inglês que melhor traduz a palavra "interessante" em português:</h3>
+      <label><input type="radio" name="q1" value="a"> exciting</label><br>
+      <label><input type="radio" name="q1" value="b"> important</label><br>
+      <label><input type="radio" name="q1" value="c"> difficult</label><br>
+      <label><input type="radio" name="q1" value="d"> boring</label><br>
+
+      <!-- Questão 2 -->
+      <h3>2. (Gramática) Complete a frase em inglês com a preposição correta:<br> I'm going to the park __ my friends.</h3>
+      <label><input type="radio" name="q2" value="a"> at</label><br>
+      <label><input type="radio" name="q2" value="b"> on</label><br>
+      <label><input type="radio" name="q2" value="c"> in</label><br>
+      <label><input type="radio" name="q2" value="d"> with</label><br>
+
+      <!-- Questão 3 -->
+      <h3>3. (Compreensão de Leitura)<br>
+      The weather is going to be beautiful this weekend. It's going to be sunny and warm with highs in the mid-70s. There is a slight chance of showers on Sunday afternoon, but otherwise it should be a great weekend to enjoy the outdoors.<br><br>
+      What is the weather forecast for this weekend?</h3>
+      <label><input type="radio" name="q3" value="a"> It will be hot and humid.</label><br>
+      <label><input type="radio" name="q3" value="b"> It will be cold and rainy.</label><br>
+      <label><input type="radio" name="q3" value="c"> It will be cloudy and overcast.</label><br>
+      <label><input type="radio" name="q3" value="d"> It will be sunny and warm with a slight chance of showers on Sunday afternoon.</label><br>
+
+      <!-- Questão 4 -->
+      <h3>4. (Expressão Oral) Escolha a frase mais adequada para responder "How are you?":</h3>
+      <label><input type="radio" name="q4" value="a"> I'm doing well.</label><br>
+      <label><input type="radio" name="q4" value="b"> I'm not feeling well.</label><br>
+      <label><input type="radio" name="q4" value="c"> I'm busy.</label><br>
+      <label><input type="radio" name="q4" value="d"> I'm fine.</label><br>
+
+      <!-- Questão 5 -->
+      <h3>5. (Compreensão Auditiva) What is Person 2 doing on Friday night?<br>
+      (Diálogo: Person 2 is going to the movies with friends on Friday night)</h3>
+      <label><input type="radio" name="q5" value="a"> They are going to work.</label><br>
+      <label><input type="radio" name="q5" value="b"> They are going to the park for a picnic.</label><br>
+      <label><input type="radio" name="q5" value="c"> They are going to the movies with their friends.</label><br>
+      <label><input type="radio" name="q5" value="d"> They are going to relax at home.</label><br>
+
+      <!-- Questão 6 -->
+      <h3>6. (Vocabulário) Escolha a tradução correta da expressão "fazer as pazes":</h3>
+      <label><input type="radio" name="q6" value="a"> to break up</label><br>
+      <label><input type="radio" name="q6" value="b"> to argue</label><br>
+      <label><input type="radio" name="q6" value="c"> to get along</label><br>
+      <label><input type="radio" name="q6" value="d"> to make up</label><br>
+
+      <!-- Questão 7 -->
+      <h3>7. (Gramática) Complete a frase: I __ from Brazil.</h3>
+      <label><input type="radio" name="q7" value="a"> is</label><br>
+      <label><input type="radio" name="q7" value="b"> am</label><br>
+      <label><input type="radio" name="q7" value="c"> be</label><br>
+      <label><input type="radio" name="q7" value="d"> are</label><br>
+
+      <!-- Questão 8 -->
+      <h3>8. (Compreensão de Leitura)<br>
+      I'm a big fan of reading. I love to get lost in a good book and escape from the real world for a while. I also enjoy the challenge of trying to understand complex ideas and different perspectives. Reading has helped me to become a more well-rounded and informed person.<br><br>
+      What does the author enjoy about reading?</h3>
+      <label><input type="radio" name="q8" value="a"> It helps them to learn new things and become more informed.</label><br>
+      <label><input type="radio" name="q8" value="b"> It helps them to relax and escape from the real world.</label><br>
+      <label><input type="radio" name="q8" value="c"> It challenges them to think critically and understand different perspectives.</label><br>
+      <label><input type="radio" name="q8" value="d"> All of the above.</label><br>
+
+      <!-- Questão 9 -->
+      <h3>9. (Expressão Oral) Escolha a frase mais adequada para pedir ajuda:</h3>
+      <label><input type="radio" name="q9" value="a"> All of the above.</label><br>
+      <label><input type="radio" name="q9" value="b"> I'm not sure how to do this.</label><br>
+      <label><input type="radio" name="q9" value="c"> Can you help me, please?</label><br>
+      <label><input type="radio" name="q9" value="d"> I need some help.</label><br>
+
+      <!-- Questão 10 -->
+      <h3>10. (Compreensão Auditiva) What is the gate number for the flight from New York to London?<br>
+      (Anúncio: The flight from New York to London is now boarding at Gate 20.)</h3>
+      <label><input type="radio" name="q10" value="a"> Gate 30</label><br>
+      <label><input type="radio" name="q10" value="b"> Gate 20</label><br>
+      <label><input type="radio" name="q10" value="c"> Gate 10</label><br>
+      <label><input type="radio" name="q10" value="d"> Gate 40</label><br>
+
+      <button type="button" onclick="checkAnswers()">Enviar Respostas</button>
+    </form>
+
+    <p id="resultado"></p>
+    <p id="mensagemCertificado"></p>
+  </div>
+
+  <script>
+    // Mostrar a página de perguntas
+    function mostrarPagina2() {
+      document.getElementById('pagina1').style.display = 'none';
+      document.getElementById('pagina2').style.display = 'block';
+    }
+
+    // Verificar respostas
+    function checkAnswers() {
+      let total = 0;
+      const respostas = {
+        q1: 'a', q2: 'd', q3: 'd', q4: 'a', q5: 'c',
+        q6: 'd', q7: 'b', q8: 'd', q9: 'c', q10: 'b'
+      };
+
+      for (let i = 1; i <= 10; i++) {
+        const q = document.querySelector('input[name="q'+i+'"]:checked');
+        if (q && q.value === respostas['q'+i]) total++;
+      }
+
+      document.getElementById('resultado').innerText = "Você acertou " + total + " de 10 perguntas.";
+
+      if (total >= 6) {
+        document.getElementById('mensagemCertificado').innerHTML =
+        "🎉 PARABÉNS! Envie mensagem para o nosso <a href='https://wa.me/5599999999999' target='_blank'>WhatsApp</a> para receber seu certificado.";
+      } else {
+        document.getElementById('mensagemCertificado').innerText = "Continue praticando! Tente novamente.";
+      }
+    }
+  </script>
+
+</body>
+</html>
